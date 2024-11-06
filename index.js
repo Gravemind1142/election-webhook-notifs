@@ -67,7 +67,7 @@ async function run() {
                         value: uncalledStates.map(v => v.stateName).join(",\n"),
                     },
                     {
-                        name: `:red_circle: Trump`,
+                        name: `:red_circle: Donald Trump`,
                         value: trumpStates.map(v => v.statePostal).join(", "),
                     },
                 ]
