@@ -84,3 +84,4 @@ async function run() {
 
 run();
 setInterval(run, 60000);
+console.log("node start done");
