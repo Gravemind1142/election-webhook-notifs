@@ -24,7 +24,7 @@ async function post(payload) {
 
 function announceCall(state, winner) {
     const payload = {
-        content: `\`@everyone\` AP has called ${state} for ${winner}`
+        content: `@everyone AP has called ${state} for ${winner}`
     }
     return post(payload);
 }
